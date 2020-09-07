@@ -22,7 +22,7 @@ mkdir Programs/C++
 mv Programs/Age.cpp Programs/C++/Age.cpp
 
 # Task 7
-cp Progams/"Java Homework"/Cs180/Project_1
+cp -R Programs/Java Homework/Cs180/Project_1
 
 # Task 8
 mv Programs/Count.c Programs/Goodbye.c Programs/C
@@ -31,10 +31,10 @@ mv Programs/Count.c Programs/Goodbye.c Programs/C
 mv Programs/Name.py Programs/Space.py Programs/"Python 3"
 
 # Task 10
-touch Homework/Pol141/Essay.txt
+touch Homework/POL141/Essay.txt
 
 # Task 11
-pwd
+ls ..
 
 # Task 12
 set autoread autoindent number
